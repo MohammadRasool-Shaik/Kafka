@@ -1,0 +1,13 @@
+{
+"type":"record",
+"namespace": "org.rash.avro.dto",
+"name":"Employee",
+"fields":[
+{"name": "eid", "type": "int"},
+     {"name": "name", "type": ["string", "null"]},
+     {"name": "salary", "type": ["double", "null"]},
+     {"name": "age", "type": "int"},
+     {"name": "gender", "type": ["string", "null"], "default": "None"},
+     {"name": "designation", "type": ["string", "null"]}
+]
+}
