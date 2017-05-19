@@ -36,6 +36,7 @@ public class AvroConsumerWithParsers {
 		props.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
 		props.put("value.deserializer", "org.apache.kafka.common.serialization.ByteArrayDeserializer");
 		props.put("group.id", "RG");
+		props.put("enable.auto.commit", "false");
 
 		Schema schema = new Schema.Parser().parse(new File("D:\\Workspace\\Kafka\\src\\main\\resources\\avro\\schema\\EmployeeV1.avsc"));
 

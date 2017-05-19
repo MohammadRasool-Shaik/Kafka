@@ -35,7 +35,7 @@ public class SupplierProducer {
 		
 		props.put("acks", "all");
         props.put("retries", 0);
-		props.put("max.in.flight.requests.per.connection", "org.rash.kafka.producer.SupplierSerializer");
+		props.put("max.in.flight.requests.per.connection", "1");
 
 		Producer<String, Supplier> producer = new KafkaProducer<>(props);
 

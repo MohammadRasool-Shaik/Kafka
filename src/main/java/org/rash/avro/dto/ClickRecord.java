@@ -7,7 +7,7 @@ package org.rash.avro.dto;
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class ClickRecord extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  private static final long serialVersionUID = 5929349542946520763L;
+  private static final long serialVersionUID = 3843929688902138339L;
   public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"ClickRecord\",\"namespace\":\"org.rash.avro.dto\",\"fields\":[{\"name\":\"session_id\",\"type\":\"string\"},{\"name\":\"browser\",\"type\":[\"string\",\"null\"]},{\"name\":\"campaign\",\"type\":[\"string\",\"null\"]},{\"name\":\"channel\",\"type\":\"string\"},{\"name\":\"referrer\",\"type\":[\"string\",\"null\"],\"default\":\"None\"},{\"name\":\"ip\",\"type\":[\"string\",\"null\"]}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.lang.CharSequence session_id;

@@ -35,6 +35,7 @@ public class SupplierConsumer {
 		props.put("group.id", consumerGroupName);
 		props.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
 		props.put("value.deserializer", "org.rash.kafka.producer.SupplierDeserializer");
+		props.put("enable.auto.commit", "false");// this property will disable auto-commit feature and the consumer will not commit offset automatically by kafka broker.
 
 		Consumer<String, Supplier> consumer = new KafkaConsumer<>(props);
 		consumer.subscribe(Arrays.asList(topicName));

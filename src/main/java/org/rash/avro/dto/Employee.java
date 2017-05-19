@@ -7,7 +7,7 @@ package org.rash.avro.dto;
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class Employee extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  private static final long serialVersionUID = 3726515802025079381L;
+  private static final long serialVersionUID = 3543731192566015441L;
   public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"Employee\",\"namespace\":\"org.rash.avro.dto\",\"fields\":[{\"name\":\"eid\",\"type\":\"int\"},{\"name\":\"name\",\"type\":[\"string\",\"null\"]},{\"name\":\"salary\",\"type\":[\"double\",\"null\"]},{\"name\":\"age\",\"type\":\"int\"},{\"name\":\"gender\",\"type\":[\"string\",\"null\"],\"default\":\"None\"},{\"name\":\"designation\",\"type\":[\"string\",\"null\"]}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public int eid;

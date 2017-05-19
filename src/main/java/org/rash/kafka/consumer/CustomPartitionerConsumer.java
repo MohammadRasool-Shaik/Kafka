@@ -22,7 +22,7 @@ import org.apache.kafka.common.TopicPartition;
  */
 public class CustomPartitionerConsumer {
 	public static void main(String[] args) {
-		String topicName = "SensorTopic";
+		final String topicName = "SensorTopic";
 		Properties props = new Properties();
 		props.put("bootstrap.server", "localhost:9092,localhost:9093,localhost:9094");
 		props.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");

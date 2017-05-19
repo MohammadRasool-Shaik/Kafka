@@ -1,0 +1,12 @@
+{
+"type":"record",
+"namespace": "org.rash.avro.dto",
+"name":"City",
+"fields":[
+	 {"name": "id", "type": "int"},
+     {"name": "name", "type": ["string", "null"]},
+     {"name": "countryCode", "type": ["string", "null"]},
+     {"name": "district", "type": ["string", "null"]},
+     {"name": "population", "type": "int"}
+]
+}
