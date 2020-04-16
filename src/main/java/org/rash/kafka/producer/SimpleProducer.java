@@ -15,7 +15,7 @@ import org.apache.kafka.clients.producer.ProducerRecord;
  */
 public class SimpleProducer {
 	public static void main(String[] args) {
-		String topicName = "SimpleProducerTopic";
+		String topicName = "MyFirstTopic";
 		String key = "key1";
 		String value = "value1";
 
